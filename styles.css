@@ -1,0 +1,65 @@
+body {
+    background-color: royalblue;
+    color: #fff;
+    font-family: monospace;
+}
+
+#formId {
+    border: 2px white solid;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 10vh;
+}
+#formId p{
+    font-size: 20px;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#submitBtn {
+    margin: 10px;
+    border: none;
+    outline: 0;
+    padding: 10px 20px ;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#resetBtn {
+    margin: 10px;
+    border: none;
+    outline: 0;
+    padding: 10px 20px ;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#nameField{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#userField{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#emailField{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#labelId{
+    font-size: 20px;
+}
+#theText{
+    border: none;
+    outline: none;
+}
